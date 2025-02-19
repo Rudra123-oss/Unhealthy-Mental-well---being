@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <style>
+
+.quiz-container {
+    max-width: 1100px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+}
+
+.question { margin: 35px 0; }
+label { display: block; margin: 10px 0; font-size: 20px;}
+button { width: 100%; padding: 10px; background: #28a745; color: white; border: none; border-radius: 5px; margin-top: 21px; cursor: pointer; }
+button:hover { background: #218838; }
+#result { text-align: center; margin-top: 20px; color: red;font-size:25px; }
+
+    </style>
+</head>
+<body>
+    <center><p class="rcorners2" style="margin-top: 10px;">Quizzes!!</p></center><br>
+
+    <div class="quiz-container">
+        <div id="quiz" style="font-size: 24px;"></div>
+        <button id="submit">Submit</button>
+        <div id="result"></div>
+    </div><br><br>
+
+
+    <center><table border="1" class="table" style="border:2px solid blue;">
+        <tr>
+            <th><a href="webpage1.html">Causes</a></th>
+            <th><a href="webpage2.html">Effects & Solutions</a></th>
+            <th><a href="webpage4.html">Bibliography</a></th>
+        </tr>
+    </table></center><br>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>

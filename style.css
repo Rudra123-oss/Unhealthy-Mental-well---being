@@ -1,0 +1,248 @@
+/* 1st Webpage*/
+
+body{
+    margin: 0;
+}
+
+  a:link {
+    text-decoration: none;
+  }
+  a:hover {
+
+    text-decoration: underline;
+  }
+
+  .bg{
+    margin:0px;
+    border-radius:0px;
+    background:#A9C46C;
+    background-position: left top;
+    background-repeat:repeat;
+    padding:0px;
+    width:100%;
+    height:250px;
+    color:#5E686D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 30px;
+    }
+
+.logo img {
+    scale:360%;
+    padding-left: 2%;
+    margin-bottom: 10 auto;
+    margin-left: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+    border-radius: 20px;
+}
+
+
+.slideshow-container {
+  width: 800px;
+  height: 600px;
+  background-color: #A9C46C;
+  position: relative;
+  margin: 50px auto;
+}
+
+.smt{
+  margin:5px;
+  background-color:darkgray;
+  color:white;
+  padding:5px;
+  text-align:center;
+  border-radius:8px;
+}
+
+
+  /* 2nd Webpage*/
+
+
+  .first-container{
+    background-image:url("https://static.wixstatic.com/media/c4d39d_a80b507bef0a43b4ba1462228ed7dcdf~mv2.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c4d39d_a80b507bef0a43b4ba1462228ed7dcdf~mv2.jpg");
+    min-height:700px; 
+
+    background-attachment: fixed;
+    background-repeat: repeat;
+
+    /* flexbox code for aligning content to center */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+
+  .second-container{
+    background-image:url("https://media.istockphoto.com/id/1472513555/vector/depressed-people-sitting-on-floor-and-hugging-knees-mental-health-concept-depression-bipolar.jpg?s=612x612&w=0&k=20&c=VaDrNA9-if_vgLsgV3af4zUaWpNciuX3rpEIiTLXHHU=");
+    min-height:700px;
+
+
+    background-attachment: fixed;
+    background-repeat: repeat;
+
+    /* flexbox code for aligning content to center */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+
+  .third-container{
+    background-image:url("https://img.freepik.com/premium-vector/mental-health-concept_250257-1048.jpg?semt=ais_hybrid");
+    min-height:900px; /*Assuming screen resolution is 1600 x 900px*/
+
+    background-attachment: fixed;
+    background-repeat:repeat;
+
+    /* flexbox code for aligning content to center */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+
+
+
+
+  .first-title{
+    color:White;
+    background-color:brown;
+    width:34%;/* using about 1/3rd space of the page width */
+    text-align: center;
+    height:100px;
+    font-size: 33px;
+    opacity: 0.65;
+  }
+
+  .second-title{
+    color:White;
+    background-color:blue;
+    width:34%;/* using about 1/3rd space of the page width */
+    text-align: center;
+    height:100px;
+    font-size: 33px;
+    opacity: 0.65;
+  }
+
+  .third-title{
+    color:#155E95;
+    background-color:green;
+    width:50%; /* using about 1/3rd space of the page width*/
+    height:130px;
+    text-align: center;
+    border-radius:300px;
+    font-size:60px;
+  }
+
+
+  .Content_First{
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+    color:white;
+    font-size: 23px;
+    margin:0;
+  }
+
+  .Content_Second{
+    width: 100%;
+    height: 450px;
+    padding: 20px;
+    color:white;
+    font-size:23px;
+    margin:0;
+  }
+
+
+  .table3{
+    border:1px Solid Yellow;
+  }
+
+  .content{
+    font-size: 23px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .list{
+    font-size: 23px;
+    text-align: left;
+    font-weight: normal;
+  }
+
+  ol li {
+    font-weight:bold;
+}
+li > p {
+    font-weight:normal;
+}
+
+  
+
+  /* Third Webpage*/
+
+  .rcorners2 {
+    border-radius: 75px;
+    border: 8px solid #912BBC;
+    padding: 20px; 
+    width: 800px;
+    height: 120px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size:100px;
+    background-color: #F8D082;
+    color:#B15EFF;
+    margin:0;
+  }
+  
+  .table {
+
+    font-size: 50px;
+  }
+
+  
+
+
+
+  /* Fourth Webpage*/
+
+  .main {
+    background-color: #F4D793;
+    height: 769.5px;
+    width: 80%;
+    border-radius: 10px;
+    text-align:left;
+    padding: 15px;
+    }
+
+pr {
+    color: black;
+}

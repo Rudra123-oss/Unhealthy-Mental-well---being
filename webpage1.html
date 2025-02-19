@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Causes of Unhealthy Mental Well - being</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+
+</head>
+<body style="background-color: darkgray;">
+
+    <center><div class="bg" style="font-size: 100px;">Causes of Unhealthy Mental Practices</div></center><br><br>
+
+    <hr style="border:1.5px solid black;"><br><br><br>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="C:\Users\hensi\Downloads\Screenshot_2025-02-02_175247-removebg-preview.png" alt="Logo" height="50px" 
+            width="60px"/>
+        </div>
+        <ul class="nav-links">
+            <li><a href="webpage2.html"style="font-size:30px;">Effects & Solutions</a></li>
+            <li><a href="webpage3.html"style="font-size:30px;">Quizzes</a></li>
+            <li><a href="webpage4.html" style="font-size:30px;">Bibliography</a></li>
+        </ul>
+    </nav><br><br>
+
+    <marquee><img src="https://media.istockphoto.com/id/1294477039/vector/metaphor-bipolar-disorder-mind-mental-double-face-split-personality-concept-mood-disorder-2.jpg?s=612x612&w=0&k=20&c=JtBxyFapXIA63hzZk_F5WNDF92J8fD2gIFNX3Ta4U3A="
+    height="200px" width="200px" style="border: 11px dotted violet;border-radius: 30%;"></marquee>
+
+    
+    <hr style="border:1.5px solid black;">
+    <br>
+   <div class="slideshow-container">
+        <div>
+    
+          <img id="image" src="https://cdn.pixabay.com/photo/2017/01/30/02/20/mental-health-2019924_640.jpg" height="560px" width="800px">
+        </div>
+    <div>
+          <button class="smt" onclick=previous()>Previous</button>
+    
+          <button class="smt" onclick= next()>Next</button>
+    
+          </div>
+
+
+          <script>
+
+var images = ['https://news.llu.edu/sites/news.llu.edu/files/styles/og_image/public/mental-health-and-food-web.jpg?itok=2JLTF1v0', 'https://media.istockphoto.com/id/1081464412/vector/digital-detox-young-female-character-stepping-out-of-the-mobile-phone-screen-modern.jpg?s=612x612&w=0&k=20&c=0OkmSqzdEh_0EvGlKBBZflBPIc_z-D0faX_nOCpsjog=', 'https://media.istockphoto.com/id/1081464412/vector/digital-detox-young-female-character-stepping-out-of-the-mobile-phone-screen-modern.jpg?s=612x612&w=0&k=20&c=0OkmSqzdEh_0EvGlKBBZflBPIc_z-D0faX_nOCpsjog=', 'https://media.istockphoto.com/id/1376204340/photo/binge-watching-the-favorite-tv-show.jpg?s=612x612&w=0&k=20&c=L-y8x8mUaIzve9DCLcO2QTbgIuD6PcxbNKrzxE7a9Uo=']
+
+/* Getting the unique id of <img> whose src needs to be changed */
+let showImage = document.getElementById("image");
+showImage.src = images[0];
+
+let position = 0;
+
+function next() {
+
+  if (position < (4 - 1)) {
+    position = position + 1;
+    showImage.src = images[position];
+  }
+
+  else {
+    position = 0;
+    showImage.src = images[position];
+  }
+}
+
+
+function previous() {
+
+  if (position > 0) {
+    position = position - 1;
+    showImage.src = images[position];
+  }
+
+  else {
+    position = 3;
+    showImage.src = images[position];
+  }
+}
+
+let firstname= prompt("Enter Your FirstName");
+let lastname= prompt("Enter Your LastName");
+ 
+alert("Full Name is Confirmed as :-"+firstname +" "+ lastname);
+
+</script>
+</body>
+</html>
